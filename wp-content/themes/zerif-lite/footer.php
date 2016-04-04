@@ -53,7 +53,7 @@
 		$zerif_socials_instagram = get_theme_mod('zerif_socials_instagram');
 		
 		$zerif_accessibility = get_theme_mod('zerif_accessibility');
-		
+		$zerif_copyright = get_theme_mod('zerif_copyright');
 
 		if(!empty($zerif_address) || !empty($zerif_address_icon)):
 			$footer_sections++;
@@ -154,13 +154,13 @@
 		if( !empty($zerif_socials_facebook) || !empty($zerif_socials_twitter) || !empty($zerif_socials_linkedin) || !empty($zerif_socials_behance) || !empty($zerif_socials_dribbble) || 
 		!empty($zerif_copyright) || !empty($zerif_socials_instagram) ):
 		
-					/*echo '<div class="'.$footer_class.' copyright">';*/
+					echo '<div class="'.$footer_class.' copyright">';
 					if(!empty($zerif_socials_facebook) || !empty($zerif_socials_twitter) || !empty($zerif_socials_linkedin) || !empty($zerif_socials_behance) || !empty($zerif_socials_dribbble)):
 						echo '<ul class="social">';
-
+						
 						/* facebook */
 						if( !empty($zerif_socials_facebook) ):
-							echo '<br><br><li><a'.$attribut_new_tab.' href="'.esc_url($zerif_socials_facebook).'"><i class="fa fa-facebook"></i></a></li>';
+							echo '<li><a'.$attribut_new_tab.' href="'.esc_url($zerif_socials_facebook).'"><i class="fa fa-facebook"></i></a></li>';
 						endif;
 						/* twitter */
 						if( !empty($zerif_socials_twitter) ):
@@ -191,7 +191,7 @@
 						echo '<p id="zerif-copyright" class="zerif_hidden_if_not_customizer"></p>';
 					endif;
 					
-					echo '<div class="zerif-copyright-box">Copyright: @PuntoPymes 2016</div>';
+					echo '<div class="zerif-copyright-box"><a class="zerif-copyright" href="http://themeisle.com/themes/zerif-lite/"'.$attribut_new_tab.' rel="nofollow">Zerif Lite </a>'.__('powered by','zerif-lite').'<a class="zerif-copyright" href="http://wordpress.org/"'.$attribut_new_tab.' rel="nofollow"> WordPress</a></div>';
 					
 					echo '</div>';
 			

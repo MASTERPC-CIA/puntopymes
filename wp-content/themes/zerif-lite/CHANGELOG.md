@@ -1,5 +1,35 @@
 
 
+### 1.8.3.9 - 29/03/2016
+
+ Changes: 
+
+
+ * Fixed
+ * Fixed #145 #290 Added support for cyrillic fonts
+ * Option to change the template page to full width site-wide #314
+ * Option to have an active home link in the menu #321
+ * Fixed #145 #290 Added option to use safe font
+ * Fixed #320 Reviews stars issue with latest Woocommerce
+ * Fixed uploading images within Our Focus widgets notworking with Page Builder #324
+ * Fixed uploading images within Our Team widgets not working with Page Builder #324
+ * Fixed uploading images within Testimonials and Clients widgets not working with Page Builder #324
+ * Replace not existing doc with new one #322
+
+
+### 1.8.3.7 - 16/03/2016
+
+ Changes: 
+
+
+ * Merge pull request #311 from abaicus/development
+
+!!!Changed CSS selector to more specific ones. Edits added to #309.
+ * Fixed layout issue with pirate forms #313
+ * Fixed google webmaster structure data #187
+ * Fixed small issue with Pirate Forms plugin
+
+
 ### 1.8.3.6 - 09/03/2016
 
  Changes: 

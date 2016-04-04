@@ -29,7 +29,7 @@ get_header(); ?>
 
                 <header class="entry-header">
 
-                    <h1 class="entry-title"><?php _e( 'Oops! Parece que esa pagina no ha sido encontrada!.', 'zblackbeard' ); ?></h1>
+                    <h1 class="entry-title"><?php _e( 'Oops! That page can&rsquo;t be found.', 'zblackbeard' ); ?></h1>
 
                 </header><!-- .entry-header -->
 
@@ -37,7 +37,7 @@ get_header(); ?>
 
                 <div class="entry-content">
 
-                    <p><?php _e( 'Parece que no ha sido encontrado nada en esa pagina!.', 'zblackbeard' ); ?></p>
+                    <p><?php _e( 'It looks like nothing was found at this location. Maybe try a search?', 'zblackbeard' ); ?></p>
 
                     <?php get_search_form(); ?>
 
