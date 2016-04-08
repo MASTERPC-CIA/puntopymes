@@ -25,7 +25,7 @@ define('DB_USER', 'puntopym_user');
 define('DB_PASSWORD', 'sofpymes');
 
 /** Host de MySQL (es muy probable que no necesites cambiarlo) */
-define('DB_HOST', '191.101.21.141');
+define('DB_HOST', 'localhost');
 
 /** Codificación de caracteres para la base de datos. */
 define('DB_CHARSET', 'utf8mb4');
