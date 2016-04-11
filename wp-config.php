@@ -16,13 +16,13 @@
 
 // ** Ajustes de MySQL. Solicita estos datos a tu proveedor de alojamiento web. ** //
 /** El nombre de tu base de datos de WordPress */
-define('DB_NAME', 'puntopym_masterpc');
+define('DB_NAME', 'puntopymes');
 
 /** Tu nombre de usuario de MySQL */
-define('DB_USER', 'puntopym_user');
+define('DB_USER', 'root');
 
 /** Tu contraseña de MySQL */
-define('DB_PASSWORD', 'sofpymes');
+define('DB_PASSWORD', 'primos14');
 
 /** Host de MySQL (es muy probable que no necesites cambiarlo) */
 define('DB_HOST', 'localhost');
@@ -42,14 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY', '2T^zz@+~l^q1lT/Kk<g>GO1i8p4ke:t9K9*U+X`:2~fS&GO8)?O-eR(22bGCDG_[');
-define('SECURE_AUTH_KEY', '+{=AU&jbyh+R`4BlLB15r4 }@i2fpFt{Hv=;E6|3ctkPDo#B?t=d.l=}j:LTqQGB');
-define('LOGGED_IN_KEY', 'VMGMaRg=I}y[WlX@EI25nHHJj%*l);6/Iu);*U`C||7Dx;_-}ffo5 HubS&*H|0H');
-define('NONCE_KEY', '=ofC{bac9YR507<e+Qw?Z,^!XJ7i[-w`dWNtNQf3,+3lR)$[-`M 0e}wnRS3pr3R');
-define('AUTH_SALT', '~M-h?L_JySw[3yxC-(+;HV%M2!Ps^|}Imbt%)9_*~-LK4dy,LKMGBb@s+|dy7PAN');
-define('SECURE_AUTH_SALT', 'u,A)7|dEGwW1;{a?}d#d3+)&Vp~-+|-M.wUyN4_|QqiJMBr}F43IodO[!Zw}X/+|');
-define('LOGGED_IN_SALT', '3?`lAzQ(uC,>[&g-3B1mh)j02>^J-5:OLU<s!P6?G2-l|P).yN?!I1%!OuTs02Z(');
-define('NONCE_SALT', 'T@K^J*5}AaQ,w_b.*N&Mhp#yK9iv?ZliHF=3,lM9QGQ`+aP[%(i*_p$.8yv_6OdJ');
+define('AUTH_KEY', '.NBLAhY/ucxfyUgX8$#iPX-o,c-,1Lb8O4r3< 6c8NLo<KXR5 ,Xitrl9,EB 1-h');
+define('SECURE_AUTH_KEY', '4E}triEieGxHnL]uo_9s(Tr%W&xKU6zoLth/|lDAQw_QWm~HJv))$vKwVWIY =Mw');
+define('LOGGED_IN_KEY', '7SiIj1f&gHlUxx rzh p>YKG h`,oIW`27;Jk*ACb&ccI|Rk3~D.1IrRC +NUEX0');
+define('NONCE_KEY', '{vg g^ckMoFih;3~$|Nu|_QOD/9h:f]@M%G1:?iu>(5(gA)&0s>R%s*s}F@s|8xU');
+define('AUTH_SALT', 'I@ei2`ER@6YCb8|B(A;lY{SGpP|X,_5ADAeuPF}D8T(LS+tyluox{.s4*qgoLcH~');
+define('SECURE_AUTH_SALT', 'rvw)r74>?bJ>|&<T`(+pd[#*DM:1_&UEXPmQef^&c;@4AZ=JE}&B?y=} eEQ`m_U');
+define('LOGGED_IN_SALT', 'o_NM/1?-9TvO|-+mPtb)`RCO,|MuRAB~oi4`}E}SGgUO2DH#Y<@BXP4x/>S4n(|v');
+define('NONCE_SALT', '}LX*?|kbi-GkBoG17P`j3YDkOvXCEV<PE_.-BxPR+a!i,SyX7]Uv#d}6KpDfnBkX');
 
 /**#@-*/
 
